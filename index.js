@@ -17,7 +17,7 @@ console.log('paysi', uri);
 async function run() {
     try {
         await client.connect();
-        console.log('conneckt todad');
+        console.log('connected successfully');
         const database = client.db('Turista');
         const BookingCollection = database.collection('services');
         const orderCollection = database.collection("bookings");
